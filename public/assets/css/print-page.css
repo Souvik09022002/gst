@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+.invoice-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+.invoice-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+.header_foot p {
+    margin-bottom: 5px;
+}
+.table th, .table td {
+    padding: 0.5rem;
+    vertical-align: middle;
+}
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+}
+.v_line {
+    border-left: 2px solid #ddd;
+    height: 100%;
+    margin: 0 15px;
+}
+.custom-textarea {
+    resize: none;
+    overflow: hidden;
+    height: auto;
+    min-height: 50px;
+    background-color: #fff;
+    border: none;
+}
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.items {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.total-in-words {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+}
+#totalInWords {
+    font-weight: bold;
+    color: #2c3e50;
+    display: block;
+    margin-top: 10px;
+}
+.signature-box {
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.terms-conditions {
+    margin-top: 30px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+}
+.footer-note {
+    margin-top: 30px;
+    text-align: center;
+    font-style: italic;
+    color: #6c757d;
+}
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    .invoice-container {
+        box-shadow: none;
+        border: none;
+    }
+}
